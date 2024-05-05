@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello jump"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/service_basic_start"
+        android:text="启动service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/service_basic_bind"
+        android:text="绑定service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/service_basic_bind_set"
+        android:text="绑定service设置参数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/service_basic_bind_get"
+        android:text="绑定service获取返回值"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/service_basic_unbind"
+        android:text="解绑service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/service_basic_stop"
+        android:text="停止service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
